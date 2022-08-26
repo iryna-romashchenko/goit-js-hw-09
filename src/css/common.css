@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button{
+  cursor: pointer;
+}
+
+.flatpickr-input, button[data-start]{
+  font-size: 1 rem;
+}
+.timer{
+display:flex;
+align-content: center;
+text-transform: uppercase;
+}
+
+.field:not(:last-child){
+margin-right: 15px;
+}
+
+.value{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
